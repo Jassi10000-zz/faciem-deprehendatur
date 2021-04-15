@@ -6,7 +6,7 @@
     geometry of a human face .
     
     
-So now you must have got the idea how SnapChat and Instagram apply filters on our face 
+ ## So now u must have known how SnapChat and Instagram apply filters on our face😍.  They also do Facial Landmark detection to apply filters.
 
 | Example 1  | Example 2 | Example 3 | Example 4 |
 | --- | ----------- | -----------| -----------|
@@ -20,9 +20,3 @@ So now you must have got the idea how SnapChat and Instagram apply filters on ou
   * Keypoints and Triangles are drawn on JavaScript Canvas
 
 
-
-
-
-
-
-Snapchat also uses Facial Landmark detection  to apply different filters on your face
