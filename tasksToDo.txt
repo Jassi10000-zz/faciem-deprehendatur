@@ -2,9 +2,9 @@
 2. Import dependencies (done)
 3. Setup webcam and canvas (done)
 4. Define references to those (done)
-5. Load facemesh 
-6. Detect function
-7. Drawing utilities
+5. Load facemesh (done)
+6. Detect function (done)
+7. Drawing utilities 
 8. Load triangulation
 9. Setup Triangle path
 10. Setup point Drawing
