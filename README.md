@@ -8,9 +8,9 @@
     
  ## So now u must have known how SnapChat and Instagram apply filters on our face😍.  They also do Facial Landmark detection to apply filters.
 
-| Example 1  | Example 2 | Example 3 | Example 4 |
-| --- | ----------- | -----------| -----------|
-| <img align="left" height="390" width="200" src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/Image1.jpg"> | <img align="left" height="390" width="200"  src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/Image2.jpg"> | <img align="left" height="390" width="200"  src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/Image3.jpg"> | <img align="left" height="390" width="200" src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/Image4.jpg"> |
+| Example 1  | Example 2 | Example 3 |
+| --- | ----------- | -----------|
+| <img align="left" height="390" width="200" src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/Image1.jpg"> | <img align="left" height="390" width="200"  src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/Image2.jpg"> | <img align="left" height="390" width="200"  src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/Image3.jpg"> | 
 
 
 # General workflow :
