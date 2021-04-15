@@ -1,9 +1,18 @@
 # Faciem-Deprehendatur 🤖
 
-  * Faciem-Deprehendatur is a web application which can do Real Time AI Face Landmark Detection 
+  * Faciem-Deprehendatur is a web application which can our Real Time AI Face Landmark Detection 
   * Its a great technique that uses Machine Learning , Deep Learning and Artificial Intelligance to detect different points on our face
-  * The points detected when combined together generates a mesh on the face . The Face Detector in this project detects 486 3D facial landmarks to infer the approximate surface geometry of a human face .
-  
+  * The points detected when combined together generates a mesh on the face . The Face Detector in this project detects 486 3D facial landmarks to infer the approximate surface 
+    geometry of a human face .
+    
+    
+So now you must have got the idea how SnapChat and Instagram apply filters on our face 
+
+| Example 1  | Example 2 | Example 3 | Example 4 |
+| --- | ----------- | -----------| -----------|
+| <img align="left" height="390" width="200" src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/Image1.jpg"> | <img align="left" height="390" width="200"  src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/Image2.jpg"> | <img align="left" height="390" width="200"  src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/Image3.jpg"> | <img align="left" height="390" width="200" src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/Image4.jpg"> |
+
+
 # General workflow :
   The project requires usage of pre-trained model named as " FaceMesh 😊 " , it simply detects our face in real time and shows a 3D mesh on our face
   * A webcam stream is created inside a front-end React App
