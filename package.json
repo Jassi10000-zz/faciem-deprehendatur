@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@tensorflow-models/face-landmarks-detection": "0.0.3",
     "@tensorflow-models/facemesh": "0.0.5",
     "@tensorflow/tfjs": "^3.4.0",
     "@testing-library/jest-dom": "^5.11.9",

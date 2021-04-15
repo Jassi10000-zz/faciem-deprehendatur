@@ -2645,9 +2645,61 @@ export const TRIANGULATION = [
 
 
 // draw triangles
+const drawPath = (ctx, points, closePath) => {
+  const region = new Path2D();
+  region.moveTo(points[0][0], points[0][1]);
+  for (let i = 1; i < points.length; i++) {
+    const point = points[i];
+    region.lineTo(point[0], point[1]);
+  }
 
+  if (closePath) {
+    region.closePath();
+  }
+  ctx.strokeStyle = "grey";
+  ctx.stroke(region);
+};
 
 // draw the points 
 // In this we are going to pass our predictions and
 // canvas to point drawing function to draw point on canvas to detect our actual face
 
+export const drawMesh = (predictions , ctx) => {
+  // predictions and canvas passed to the function
+
+  if(predictions.length > 0){
+     // let's loop through all the predictions
+    predictions.forEach((prediction) => {
+      const keypoints = prediction.scaledMesh;
+
+
+      //  Draw Triangles
+      for (let i = 0; i < TRIANGULATION.length / 3; i++) {
+        // Get sets of three keypoints for the triangle
+        const points = [
+          TRIANGULATION[i * 3],
+          TRIANGULATION[i * 3 + 1],
+          TRIANGULATION[i * 3 + 2],
+        ].map((index) => keypoints[index]);
+        //  Draw triangle
+        drawPath(ctx, points, true);
+      }
+
+      for(let i = 0 ;i < keypoints.length ;i++){
+        const x = keypoints[i][0];
+        const y = keypoints[i][1];
+
+        // to start making the mesh 
+        ctx.beginPath();
+
+        // syntax to create an arc --> .arc( x_axis , y_axis , radius , startingAngle , EndingAngle )
+        ctx.arc(x,y,1,0,3*Math.PI);  
+
+        // specifying the color of the mesh to draw
+        ctx.fillStyle = "cyan";
+
+        ctx.fill();
+      }
+    });
+  }
+};

@@ -1,8 +1,9 @@
-import React , {useRef} from 'react';
+import React , { useRef, useEffect } from "react";
 import './App.css';
-import * as tf from '@tensorflow/tfjs';
-import * as facemesh from '@tensorflow-models/facemesh';
+import * as tf from "@tensorflow/tfjs";
+import * as facemesh from "@tensorflow-models/face-landmarks-detection";
 import Webcam from "react-webcam";
+import { drawMesh } from './utilities';
 
 function App() {
 
@@ -15,13 +16,11 @@ function App() {
   const runFaceMesh = async () => {
 
     // this will load a neural network from tf.jsz
-    const network = await facemesh.load({
-      inputResolution: {width: 640 , height: 480 }, scale: 0.8
-    });
+    const network = await facemesh.load(facemesh.SupportedPackages.mediapipeFacemesh);
     // runFaceMesh function will run after every 100 ms to detect 3D points and create a mask
     setInterval(() =>{
         detect(network);
-    },100)
+    },1)
 
   };
 
@@ -30,7 +29,7 @@ function App() {
   //Detect function
   const detect = async (net) => {
     if(
-      webcamRef.current !== undefined &&
+      typeof webcamRef.current !== "undefined" &&
       webcamRef.current !== null &&
       webcamRef.current.video.readyState === 4
     ){
@@ -54,15 +53,17 @@ function App() {
        //make detections
        //net.estimateFaces will receive our network or our neural networks from tensorflow
        //and thus estimateFaces method allows us to detect all of our facial landmarks
-       const detectFace = await net.estimateFaces(video);
+       const detectFace = await net.estimateFaces({input:video});
        console.log(detectFace);
 
-       // 
+       // Get canvas context for drawing 
+       const ctx = jsCanvasRef.current.getContext("2d");
+       requestAnimationFrame(() => {drawMesh(detectFace,ctx)});
 
     }
   };
 
-  runFaceMesh();
+  useEffect(()=>{runFaceMesh()}, []);
 
   return (
     <div className="App">
