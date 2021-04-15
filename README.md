@@ -1,9 +1,8 @@
 # Faciem-Deprehendatur 🤖
 
-  * Faciem-Deprehendatur is a web application which can our Real Time AI Face Landmark Detection 
+  * Faciem-Deprehendatur is a web application which can do Real Time AI Face Landmark Detection 
   * Its a great technique that uses Machine Learning , Deep Learning and Artificial Intelligance to detect different points on our face
-  * The points detected when combined together generates a mesh on the face . The Face Detector in this project detects 486 3D facial landmarks to infer the approximate surface 
-    geometry of a human face .
+  * The points detected when combined together generates a mesh on the face . The Face Detector in this project detects 486 3D facial landmarks to infer the approximate surface geometry of a human face .
   
 # General workflow :
   The project requires usage of pre-trained model named as " FaceMesh 😊 " , it simply detects our face in real time and shows a 3D mesh on our face
