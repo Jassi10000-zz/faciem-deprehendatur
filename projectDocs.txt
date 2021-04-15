@@ -1,3 +1,0 @@
-For this project , useRef will keep the reference of the  JavaScript Canvas Component and the Webcam
-
-The detect function will actually detect our face and load the mesh by combining all the 3D points on our face 
