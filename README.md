@@ -7,20 +7,18 @@
     
 # Tech Stack Used :
 
-
 <p>
- 
- <img
+ <h3>Tensorflow.Js</h3>
+ <img src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/tfjs.png" width:"100" height="90" />
+ <h3>React.Js</h3>
+ <img src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/react1.png" width:"120" height="100" /> 
 </p>
 
-![tfjs](https://user-images.githubusercontent.com/64856348/115066619-6b636780-9f0d-11eb-9595-8bf8bd3a20d2.png)
-
-![react1](https://user-images.githubusercontent.com/64856348/115066923-d1e88580-9f0d-11eb-9afb-296cc80196e0.png)
 
 
 ## Here's a nice preview of the project by me 😎:
 <p align="center">
-    <img src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/Project-Video/final_6079aa0b3ca5820111058aa1_93885.gif" width="490" height="300"/>
+    <img src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/Project-Giphy/final_6079aa0b3ca5820111058aa1_93885.gif" width="490" height="300"/>
 </p>    
 
 
