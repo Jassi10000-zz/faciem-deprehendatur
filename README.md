@@ -26,7 +26,7 @@
   * Keypoints and Triangles are drawn on JavaScript Canvas [The Blue dots show the 3D Points  and  the Black Lines are the Neural Networks joining those points ]
 
 
-### So now u must have known how SnapChat and Instagram apply filters on our face😍.  
+### ✍ So now u must have known how SnapChat and Instagram apply filters on our face😍.  
 ### They also do Facial Landmark detection to apply filters. ➡
 
 | Example 1  | Example 2 | Example 3 |
@@ -34,6 +34,24 @@
 | <img align="left" height="410" width="220" src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/Image1.jpg"> | <img align="left" height="390" width="230"  src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/Image2.jpg"> | <img align="left" height="390" width="230"  src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/Image3.jpg"> | 
 
 
+## 🏍 To use , view or run the code :
 
+* Clone / Download :
+
+       git clone https://github.com/your_username_/Project-Name.git
+* Open the project in your favorite code editor and do following
+
+       npm install @tensorflow/tfjs @tensorflow-models/face-landmarks-detection react-webcam
+
+
+
+## ✍ Contributing :
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+* Fork the Project
+* Create your new Branch (git checkout -b NewBranchName)
+* Commit your Changes <code> (git commit -m 'Description of contribution you made ') </code>
+* Push to the Branch <code>(git push origin NewBranchName)</code>
+* Open a Pull Request
 
 
