@@ -2656,7 +2656,7 @@ const drawPath = (ctx, points, closePath) => {
   if (closePath) {
     region.closePath();
   }
-  ctx.strokeStyle = ""
+  ctx.strokeStyle = "black"
   ctx.stroke(region);
 };
 
