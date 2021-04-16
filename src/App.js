@@ -20,10 +20,8 @@ function App() {
     // runFaceMesh function will run after every 100 ms to detect 3D points and create a mask
     setInterval(() =>{
         detect(network);
-    },1)
-
+    },0.01)
   };
-
 
 
   //Detect function
@@ -71,13 +69,13 @@ function App() {
       <header className="App-header">
       <Webcam ref={webcamRef} style={
         {
-          position: 'absolute',
+          position: "absolute",
           marginLeft: "auto",
           marginRight: "auto",
           left:0,
           right:0,
           textAlign: "center",
-          zIndex: 9,
+          zindex: 9,
           width: 640,
           height: 480
         }
@@ -85,13 +83,13 @@ function App() {
 
       <canvas ref={jsCanvasRef} style={
         {
-          position: 'absolute',
+          position: "absolute",
           marginLeft: "auto",
           marginRight: "auto",
           left:0,
           right:0,
           textAlign: "center",
-          zIndex: 9,
+          zindex: 9,
           width: 640,
           height: 480
         }
