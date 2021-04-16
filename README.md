@@ -23,12 +23,11 @@
   The project requires usage of pre-trained model by TensorflowJs named as " FaceMesh 😊 " , it simply detects our face in real time and shows a 3D mesh on our face
   * A webcam stream is created inside a front-end React App
   * FaceMesh model is loaded from TensorFlow.Js Library and detections are made from the webcam stream running
-  * Keypoints and Triangles are drawn on JavaScript Canvas
+  * Keypoints and Triangles are drawn on JavaScript Canvas [The Blue dots show the 3D Points  and  the Black Lines are the Neural Networks joining those points ]
 
 
-## So now u must have known how SnapChat and Instagram apply filters on our face😍.  They also do Facial Landmark detection to apply filters.
-
-
+### So now u must have known how SnapChat and Instagram apply filters on our face😍.  
+### They also do Facial Landmark detection to apply filters. ➡
 
 | Example 1  | Example 2 | Example 3 |
 | --- | ----------- | -----------|
