@@ -8,9 +8,8 @@
 # Tech Stack Used :
 
 <p>
- <h3>Tensorflow.Js</h3>
+ <h3>Tensorflow.Js and React.js</h3>
  <img src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/tfjs.png" width:"100" height="90" />
- <h3>React.Js</h3>
  <img src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/react1.png" width:"120" height="100" /> 
 </p>
 
