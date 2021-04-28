@@ -19,6 +19,8 @@
     <img src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/Project-Giphy/final_6079aa0b3ca5820111058aa1_93885.gif" width="490" height="300"/>
 </p>    
 
+## Now its your turn to play 🤹‍♂️ here 👉 <a href="https://faciem-deprehendatur.netlify.app">faciem-deprehendatur</a>
+
 # General workflow ▶:
   The project requires usage of pre-trained model by TensorflowJs named as " FaceMesh 😊 " , it simply detects our face in real time and shows a 3D mesh on our face
   * A webcam stream is created inside a front-end React App
