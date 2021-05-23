@@ -38,6 +38,8 @@
 
 ## 🏍 To use , view or run the code :
 
+<img src="https://media.giphy.com/media/kdiLau77NE9Z8vxGSO/giphy.gif" width="40%"><br>
+
 * Clone / Download :
 
        git clone https://github.com/your_username_/Project-Name.git
