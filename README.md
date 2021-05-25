@@ -35,6 +35,8 @@
 | --- | ----------- | -----------|
 | <img align="left" height="410" width="220" src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/Image1.jpg"> | <img align="left" height="390" width="230"  src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/Image2.jpg"> | <img align="left" height="390" width="230"  src="https://github.com/Jassi10000/faciem-deprehendatur/blob/main/SampleImages/Image3.jpg"> | 
 
+## 🤖 Future Scope :
+The project can be coupled with Iris Detection System to track movements of Iris with the face as well which can used to predict the actions of the targeted person by evaluating his/her expressions.
 
 ## 🏍 To use , view or run the code :
 
@@ -46,7 +48,6 @@
 * Open the project in your favorite code editor and do following
 
        npm install @tensorflow/tfjs @tensorflow-models/face-landmarks-detection react-webcam
-
 
 
 ## ✍ Contributing :
