@@ -54,9 +54,9 @@ The project can be coupled with Iris Detection System to track movements of Iris
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 * Fork the Project
-* Create your new Branch <code> (git checkout -b NewBranchName) </code>
-* Commit your Changes <code> (git commit -m 'Description of contribution you made ') </code>
-* Push to the Branch <code>(git push origin NewBranchName)</code>
+* Create your new Branch <code> git checkout -b NewBranchName </code>
+* Commit your Changes <code> git commit -m " Description of contribution you made " </code>
+* Push to the Branch <code> git push origin NewBranchName </code>
 * Open a Pull Request
 
 
