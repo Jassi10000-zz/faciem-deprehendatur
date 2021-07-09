@@ -15,7 +15,7 @@ function App() {
   // load facemesh
   const runFaceMesh = async () => {
 
-    // this will load a neural network from tf.jsz
+    // this will load a neural network from tf.js
     const network = await facemesh.load(facemesh.SupportedPackages.mediapipeFacemesh);
     // runFaceMesh function will run after every 100 ms to detect 3D points and create a mask
     setInterval(() =>{
