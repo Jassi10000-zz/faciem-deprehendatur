@@ -20,7 +20,7 @@ function App() {
     // runFaceMesh function will run after every 100 ms to detect 3D points and create a mask
     setInterval(() =>{
         detect(network);
-    },0.01)
+    },10)
   };
 
 
