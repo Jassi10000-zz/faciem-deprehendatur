@@ -2644,7 +2644,7 @@ export const TRIANGULATION = [
   ];
 
 
-// draw triangles
+// method to draw triangles
 const drawPath = (ctx, points, closePath) => {
   const region = new Path2D();
   region.moveTo(points[0][0], points[0][1]);
